@@ -27,6 +27,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px;
 }
 
 button {
@@ -45,4 +46,16 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.header,
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  margin-right: auto;
+  gap: 10px;
+  padding: 10px;
 }
