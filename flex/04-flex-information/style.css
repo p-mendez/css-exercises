@@ -24,3 +24,14 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.plants {
+  display: flex;
+  gap: 30px;
+}
