@@ -5,25 +5,76 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 50px;
   background: darkmagenta;
+  color: white;
+  /* Solution */
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  /* Solution */
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+li a {
+  /* Solution */
+  text-decoration: none;
   color: white;
 }
 
+
+
 .footer {
-  height: 72px;
+  height: 50px;
   background: #eee;
   color: darkmagenta;
+  /* Solution */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
+  width: 200px;
   background: royalblue;
   box-sizing: border-box;
+  /* Solution */
+  flex: 0 0 auto;
 }
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(56, 52, 52, 0.06);
   border-radius: 4px;
+  /* Solution */
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.middle-section {
+  display: flex;
+  flex: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  
 }
